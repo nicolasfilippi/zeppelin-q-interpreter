@@ -1,0 +1,48 @@
+[{
+        "group": "q",
+        "name": "q",
+        "className": "org.apache.zeppelin.q.QInterpreter",
+        "properties": {
+            "q.server.host": {
+                "envName": null,
+                "propertyName": "default.host",
+                "defaultValue": "localhost",
+                "description": "The Q Server Host.",
+                "type": "string"
+            },
+			"q.server.port": {
+                "envName": null,
+                "propertyName": "default.port",
+                "defaultValue": "1308",
+                "description": "The Q Server Port.",
+                "type": "int"
+            },
+            "q.server.user": {
+                "envName": null,
+                "propertyName": "default.user",
+                "defaultValue": "",
+                "description": "The Q Server user name",
+                "type": "string"
+            },
+            "q.server.password": {
+                "envName": null,
+                "propertyName": "default.password",
+                "defaultValue": "",
+                "description": "The Q Server user password",
+                "type": "password"
+            },
+            "q.command.timeout.millisecs": {
+                "envName": "Q_COMMAND_TIMEOUT",
+                "propertyName": "q.command.timeout.millisecs",
+                "defaultValue": "60000",
+                "description": "Q command time out in millisecs. Default = 60000",
+                "type": "number"
+            }
+        },
+        "editor": {
+            "language": "q",
+            "editOnDblClick": false,
+            "completionSupport": false
+        }
+  }
+]
